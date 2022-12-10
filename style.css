@@ -1,0 +1,563 @@
+
+#h1{
+    font-family: "Georgia";
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+#h1_1{
+    font-family: "Georgia";
+    font-size: 45px;
+    font-weight: bold;
+    color: #a38b70;
+}
+#footer{
+    font-family: "Georgia";
+    font-size: 24px;
+    font-weight: bold;
+    color: #a38b70;
+}
+#footer_1 {
+    font-family: "Arial";
+    font-size: 16px;
+    color: #c3c3c3;
+}
+#text {
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+#button {
+    width: 170px;
+    height: 50px;
+    background: none;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 2px solid white;
+}
+#light {
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #404040;
+}
+#light_1 {
+    font-family: "Arial";
+    font-size: 12px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #404040;
+}
+#h2 {
+    font-family: "Georgia";
+    font-size: 30px;
+    font-weight: bold;
+    color: #a38b70;
+}
+#h4_3 {
+    font-family: "Arial";
+    font-size: 18px;
+    color: black;
+    line-height: 24px;
+    font-weight: bold;
+}
+#paragraph {
+    font-family: "Arial";
+    font-size: 16px;
+    color: #404040;
+    line-height: 24px;
+}
+#link {
+    font-family: "Arial";
+    font-size: 16px;
+    font-style: italic;
+    color: #a38b70;
+    font-weight: 400;
+}
+#istochnik {
+    font-family: "Arial";
+    font-size: 16px;
+    font-style: italic;
+    color: #666666;
+    font-weight: 400;
+}
+#h3 {
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+#h4 {
+    font-family: "Arial";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+#h4_1 {
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+ul {
+    list-style-type: none;
+}
+.conteiner {
+    width: 1021px;
+    margin: 0 auto;
+}
+
+/*-----header начало-----*/
+.header {
+    background: url("img/OxZ18cIKnZI.png") no-repeat 50%;
+    height: 525px;
+}
+.top_menu {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 0;
+    padding-top: 41px;
+    margin: 0;
+    align-items: center;
+}
+.top_menu img {
+    margin-right: 76px;
+}
+.top_menu button {
+    margin-left: 110px;
+}
+.header #h1 {
+    text-align: center;
+    line-height: 55px;
+    margin-top: 110px;
+}
+.b1 {
+    width: 170px;
+    height: 50px;
+    background: none;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.b1:hover {
+    width: 170px;
+    height: 50px;
+    background: white;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: rgb(133, 84, 28);
+    cursor: pointer;
+    border-radius: 3px;
+}
+.benefits ul {
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    padding: 51px 0 61px 0;
+}
+.benefits li {
+    width: 300px;
+    text-align: center;
+}
+.benefits li #h2{
+    cursor: pointer;
+}
+.benefits .a {
+    border-right: 0.1px solid rgb(226, 226, 226);
+    padding: 0 15px;
+}
+.benefits li img {
+    margin-bottom: 31px;
+}
+.benefits li #h2 {
+    margin-bottom: 23px;
+}
+/*-----header конец-----*/
+
+/*-----main начало-----*/
+.b2 {
+    width: 170px;
+    height: 50px;
+    background: none;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 2px solid #a38b70;
+    color: #a38b70;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.b2:hover {
+    background: #a38b70;
+    width: 170px;
+    height: 50px;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.b4 {
+    width: 170px;
+    height: 50px;
+    background: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.teory #h1 {
+    color: #a38b70;
+}
+.teory {
+    background: #f2f2f2;
+    padding: 82px 0 90px 0;
+}
+.teory .up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.teory .info {
+    display: flex;
+    gap: 31px;
+}
+.teory .info #paragraph {
+    margin-top: 7px;
+}
+.teory #h3 {
+    margin-bottom: 10px;
+}
+.teory .img1 {
+    margin-bottom: 72px;
+}
+.reviews {
+    padding: 82px 0 90px 0;
+}
+.reviews .up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.reviews .text {
+    display: flex;
+    gap: 105px;
+}
+.reviews .review1 {
+    padding-left: 50px;
+    border-left: 2px solid #a38b70;
+}
+.reviews .review2 {
+    padding-left: 50px;
+    border-left: 2px solid #a38b70;
+}
+.reviews #paragraph {
+    margin-bottom: 15px;
+}
+.b3{
+    width: 126px;
+    height: 49px;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #a38b70;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.b3:hover{
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 2px solid #a38b70;
+    cursor: pointer;
+    color: #a38b70;
+    background: none;
+    border-radius: 3px;
+}
+.b4{
+    width: 147px;
+    height: 49px;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #a38b70;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.b4:hover{
+    width: 147px;
+    height: 49px;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 2px solid #a38b70;
+    cursor: pointer;
+    color: #a38b70;
+    background: none;
+    border-radius: 3px;
+}
+.products .up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.products {
+    background: #f2f2f2;
+    padding: 82px 0 90px 0;
+}
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 58px;
+}
+.catalog article {
+    border: 0.1px solid #a38b70;
+    border-radius: 3px;
+}
+article .text {
+    padding: 21px 25px 18px 25px;
+}
+article .buttons {
+    display: flex;
+    gap: 14px;
+}
+article .z {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 28px;
+}
+.h4_2 {
+    color: #404040;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+}
+article img {
+    width: 317px;
+}
+.price .table {
+    margin-top: 82px;
+    text-align: left;
+}
+table .chislo1 {
+    width: 53px;
+    height: 53px;
+    text-align: center;
+}
+table .chislo {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 0.1px solid #a38b70;
+}
+table .uslugi {
+    width: 460px;
+    height: 50px;
+    text-align: left;
+    border: 0.1px solid #a38b70;
+    padding-left: 18px;
+}
+table .uslugi1 {
+    width: 460px;
+    height: 50px;
+    text-align: left;
+    padding-left: 18px;
+}
+table .who {
+    width: 341px;
+    height: 50px;
+    text-align: left;
+    border: 0.1px solid #a38b70;
+    padding-left: 18px;
+    font-weight: 400;
+}
+table .who1 {
+    width: 341px;
+    height: 50px;
+    text-align: left;
+    padding-left: 18px;
+}
+table .how {
+    width: 171px;
+    height: 50px;
+    text-align: left;
+    border: 0.1px solid #a38b70;
+    padding-left: 18px;
+    font-weight: 400;
+}
+table .how1 {
+    width: 171px;
+    height: 50px;
+    text-align: left;
+    padding-left: 18px;
+}
+table {
+    border-collapse:collapse;
+}
+.forma {
+    padding: 70px 0 72px 0;
+}
+.forma .up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forma1 {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    justify-content: space-between;
+}
+.forma1 img {
+    height: 535px;
+}
+input {
+    width: 630px;
+    height: 35px;
+    border: none;
+    border: 0.1px solid #666666;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.one input {
+    width: 300px;
+    height: 35px;
+    padding-left: 20px;
+}
+#checkbox {
+    width: 10px;
+    height: 20px;
+    margin: none;
+    margin-bottom: 20px;
+}
+.chast1 {
+    border-bottom: 0.1px solid #cecece;
+}
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+select {
+    width: 650px;
+    height: 35px;
+    background: none;
+    border: none;
+    border: 0.5px solid #666666;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+textarea {
+    padding-left: 20px;
+}
+.forma1 #light_1 {
+    margin-bottom: 15px;
+}
+.chast2 .text {
+    margin-top: 15px;
+}
+/*-----main конец-----*/
+
+/*-----footer начало-----*/
+footer {
+    background: #363636;
+}
+.b5 {
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+}
+footer .up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 45px;
+    padding-top: 42px;
+    border-bottom: 0.1px solid #97938c;
+}
+footer .center ul{
+    display: flex;
+    padding-left: 0;
+    gap: 57px;
+    padding-top: 42px;
+    padding-bottom: 15px;
+    border-bottom: 0.1px solid #97938c;
+}
+footer .center li div{
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+footer .center li #footer_1:hover{
+    padding-bottom: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+footer .end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 45px;
+    padding-top: 42px;
+}
+footer .end .left {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+footer .end .left img {
+    padding: 10px;
+    border: 0.1px solid #615f5c;
+    height: 24px;
+    cursor: pointer;
+}
+footer .end .right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.b6 {
+    background: none;
+    width: 170px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.b6:hover {
+    background: white;
+    width: 170px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    color: #363636;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/*-----footer конец-----*/
